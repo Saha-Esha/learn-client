@@ -1,2 +1,4 @@
-payment option
-Student can buy course
+# AOP Project Forntend  
+* React 
+* tailwindcss
+* React tanstack query 
