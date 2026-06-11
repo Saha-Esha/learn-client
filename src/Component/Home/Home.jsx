@@ -7,7 +7,6 @@ const Home = () => {
   const { student } = useAuth();
   console.log(student);
   const navigate = useNavigate();
-  // Fetch lessons from API
 
   useEffect(() => {
     fetch("http://localhost:8089/api/v1/lesson/all")

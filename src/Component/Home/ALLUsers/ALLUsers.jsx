@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 const ALLUsers = () => {
   const [students, setStudents] = useState([]);
 
-  // Fetch all students from API
 
   useEffect(() => {
     fetch("http://localhost:8089/api/v1/student/getAll")
